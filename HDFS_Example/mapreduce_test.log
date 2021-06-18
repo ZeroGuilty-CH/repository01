@@ -1,0 +1,86 @@
+ERROR main org.apache.hadoop.util.Shell - Failed to locate the winutils binary in the hadoop binary path
+ java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:382)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:397)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:390)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:80)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2821)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2816)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2682)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:372)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:171)
+	at HDFS_Example01.HDFSClient.main(HDFSClient.java:15)
+WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+ ERROR main org.apache.hadoop.util.Shell - Failed to locate the winutils binary in the hadoop binary path
+ java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:382)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:397)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:390)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:80)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2821)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2816)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2682)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:372)
+	at org.apache.hadoop.fs.FileSystem$1.run(FileSystem.java:161)
+	at org.apache.hadoop.fs.FileSystem$1.run(FileSystem.java:158)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1754)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:158)
+	at HDFS_Example01.HDFSClient.main(HDFSClient.java:16)
+WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+ ERROR main org.apache.hadoop.util.Shell - Failed to locate the winutils binary in the hadoop binary path
+ java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:382)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:397)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:390)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:80)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2821)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2816)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2682)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:372)
+	at org.apache.hadoop.fs.FileSystem$1.run(FileSystem.java:161)
+	at org.apache.hadoop.fs.FileSystem$1.run(FileSystem.java:158)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1754)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:158)
+	at HDFS_Example01.HDFSUpDownLoad.main(HDFSUpDownLoad.java:15)
+WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+ ERROR main org.apache.hadoop.util.Shell - Failed to locate the winutils binary in the hadoop binary path
+ java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:382)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:397)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:390)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:80)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2821)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2816)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2682)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:372)
+	at org.apache.hadoop.fs.FileSystem$1.run(FileSystem.java:161)
+	at org.apache.hadoop.fs.FileSystem$1.run(FileSystem.java:158)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1754)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:158)
+	at HDFS_Example01.HDFSUpDownLoad.main(HDFSUpDownLoad.java:15)
+WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+ ERROR main org.apache.hadoop.util.Shell - Failed to locate the winutils binary in the hadoop binary path
+ java.io.IOException: Could not locate executable null\bin\winutils.exe in the Hadoop binaries.
+	at org.apache.hadoop.util.Shell.getQualifiedBinPath(Shell.java:382)
+	at org.apache.hadoop.util.Shell.getWinUtilsPath(Shell.java:397)
+	at org.apache.hadoop.util.Shell.<clinit>(Shell.java:390)
+	at org.apache.hadoop.util.StringUtils.<clinit>(StringUtils.java:80)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2821)
+	at org.apache.hadoop.fs.FileSystem$Cache$Key.<init>(FileSystem.java:2816)
+	at org.apache.hadoop.fs.FileSystem$Cache.get(FileSystem.java:2682)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:372)
+	at org.apache.hadoop.fs.FileSystem$1.run(FileSystem.java:161)
+	at org.apache.hadoop.fs.FileSystem$1.run(FileSystem.java:158)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:422)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1754)
+	at org.apache.hadoop.fs.FileSystem.get(FileSystem.java:158)
+	at HDFS_Example01.HDFSUpDownLoad.main(HDFSUpDownLoad.java:15)
+WARN main org.apache.hadoop.util.NativeCodeLoader - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+ 
